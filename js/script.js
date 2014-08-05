@@ -60,15 +60,48 @@ $(function(){
             $('input').val('');
             alert('Ok, termo registrado!');
             console.log(e);
-        }).error(function(){
+        }).fail(function(){
             alert('Putz, houve um erro no registro');
         });
     });
 
 
+
+
+    $('.salvarNewRegistro').on("click",function(){ // salvar novo registro (modo avançado)
+        var termNew = $('#termNew').val();
+        var func = $('#func').val();
+        var desc = $('#descTerm').val();
+
+
+        //converter para string caso não esteja dentro de uma função
+        if(!new RegExp('^function').test(func)){
+           var NFunc = "'"+func+"'";
+        }else{
+            NFunc = func;
+        }
+
+        console.log(termNew+' - '+NFunc+' - '+desc);
+        $.ajax({
+            type:'post',
+            url: '/SPH%20-%20SiteSpeech/php/reloadJSON.php',
+            data: 'termNew='+termNew+'&func='+NFunc+'&termDesc='+desc,
+            datatype: 'html'
+
+        }).done(function(e){
+            $('input').val('');
+            alert('Ok, termo registrado!');
+            console.log(e);
+        }).fail(function(){
+            alert('Putz, houve um erro no registro');
+        });
+    });
+
+
+
     // listando todos os termos registrados
     var f = '';
-    terms.forEach(function(t){f += t.term+'<br>'})
+    terms.forEach(function(t){f += 'Termo: "'+t.term+'", Descrição: '+ t.desc+'<br>'});
     $('.termosRegistrados').html(f);
     // -------------------------------
 

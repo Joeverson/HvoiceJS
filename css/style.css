@@ -25,7 +25,7 @@ body{
     background: url(../img/black_scales.png);
 }
 .name{
-    font-family:'Honey';
+    font-family: 'Honey';
     color:white;
     font-size:90px;
     position:absolute;
@@ -34,7 +34,7 @@ body{
     margin: 15px 0 0 0;
 }
 #faixa{
-    height: 350px;
+    height: 65%;
     background-color: white;
     width: 100%;
     margin-top: 13%;
@@ -45,9 +45,6 @@ body{
     height: 100%;
     overflow: hidden;
 }
-
-
-
 .aba{
     height: 100%;
     width: 100%;
@@ -79,7 +76,7 @@ body{
 }
 
 .btns{
-    padding: 10px 0 0 0;
+    padding: 5px 0 0 0;
 }
 
 
@@ -89,16 +86,32 @@ body{
     height: 100%;
     position: absolute;
 }
+.btn-right{
+    margin-left:73%;
+    width: 15% !important;
+    height: 100px !important;
+    top: 8% !important;
+}
+.op select{
+    position: absolute;
+    left: 2%;
+    height: 40px;
+    width: 40%;
+    font-size: 16px;
+    padding: 5px;
+}
 .op button{
-    bottom: 120px;
+    bottom: 140px;
     width: 20%;
     min-width: 100px;
     left: 10%;
     position: absolute;
 }
-.op button:focus, .op button:active{
+.op button:focus, .op button:active, .op button:hover{
     outline: none;
     border:none;
+    background-color: #632b80;
+    color: white;
 }
 .op{
     height: 100%;
@@ -108,6 +121,7 @@ body{
     top:0;
     text-align: center;
     padding: 20px;
+
 }
 input{
     width: 80% !important;

@@ -26,7 +26,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="564" selection-end="564" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="2412">
+            <state line="105" column="62" selection-start="5221" selection-end="5221" vertical-scroll-proportion="-17.555555" vertical-offset="1416" max-vertical-offset="2700">
               <folding />
             </state>
           </provider>
@@ -35,16 +35,16 @@
       <file leaf-file-name="reloadJSON.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/reloadJSON.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="116" selection-start="528" selection-end="528" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="1206">
+            <state line="67" column="84" selection-start="2923" selection-end="2923" vertical-scroll-proportion="-12.666667" vertical-offset="864" max-vertical-offset="1512">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="38" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1458">
+            <state line="103" column="56" selection-start="3591" selection-end="3591" vertical-scroll-proportion="0.67487687" vertical-offset="1443" max-vertical-offset="2052">
               <folding />
             </state>
           </provider>
@@ -53,16 +53,16 @@
       <file leaf-file-name="HVoice.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/HVoice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="30" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="792">
+            <state line="19" column="30" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/json.js">
+      <file leaf-file-name="terms.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/terms.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="5" selection-start="112" selection-end="112" vertical-scroll-proportion="0.115015976" vertical-offset="0" max-vertical-offset="626">
+            <state line="9" column="36" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="teste.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teste.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="66" selection-start="561" selection-end="561" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="972">
+            <state line="22" column="66" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="972">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="14" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="2412">
+            <state line="92" column="10" selection-start="1670" selection-end="1670" vertical-scroll-proportion="0.0" vertical-offset="1324" max-vertical-offset="2664">
               <folding />
             </state>
           </provider>
@@ -99,11 +99,14 @@
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/teste.html" />
         <option value="$PROJECT_DIR$/js/HVoice.js" />
-        <option value="$PROJECT_DIR$/php/reloadJSON.php" />
+        <option value="//192.168.0.8/htdocs/taxi/templates/theme1648/PagSeguro.php" />
+        <option value="$USER_HOME$/Desktop/coisa/ls/src/w3c/dom/produtos.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/json.js" />
+        <option value="$PROJECT_DIR$/php/reloadJSON.php" />
+        <option value="$PROJECT_DIR$/js/terms.js" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -111,8 +114,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -140,6 +143,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,7 +192,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,25 +248,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1295754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12922174" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -286,6 +289,188 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="21" selection-start="2752" selection-end="2752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/HVoice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="30" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/terms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="5" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="66" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="1" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="44" selection-start="4857" selection-end="4862" vertical-scroll-proportion="0.0" vertical-offset="1458" max-vertical-offset="2628">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/reloadJSON.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1206">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1735" selection-end="1735" vertical-scroll-proportion="0.0" vertical-offset="215" max-vertical-offset="1458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/HVoice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="30" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/terms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="5" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="66" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="17" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="2538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="2412">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/reloadJSON.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="116" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1206">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="38" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/HVoice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="30" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/terms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="66" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="14" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="2412">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="2412">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/reloadJSON.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="116" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1206">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="38" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/HVoice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="30" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/terms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="5" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/teste.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="66" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="14" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="2412">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="49" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="2034">
@@ -307,7 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/json.js">
+    <entry file="file://$PROJECT_DIR$/js/terms.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="16" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="576">
           <folding />
@@ -337,16 +522,12 @@
     </entry>
     <entry file="file://$USER_HOME$/PhpstormProjects/Portifolio/js/slideText.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="181" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="9" column="22" selection-start="181" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2736" column="28" selection-start="50586" selection-end="50586" vertical-scroll-proportion="0.0" vertical-offset="48909" max-vertical-offset="111852">
-          <folding />
-        </state>
+        <state line="2736" column="28" selection-start="50586" selection-end="50586" vertical-scroll-proportion="0.0" vertical-offset="48909" max-vertical-offset="111852" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
@@ -372,84 +553,79 @@
     </entry>
     <entry file="file://$USER_HOME$/PhpstormProjects/Portifolio/js/slideText.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="181" selection-end="187" vertical-scroll-proportion="0.25878593" vertical-offset="0" max-vertical-offset="626">
-          <folding />
-        </state>
+        <state line="9" column="22" selection-start="181" selection-end="187" vertical-scroll-proportion="0.25878593" vertical-offset="0" max-vertical-offset="626" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2736" column="28" selection-start="50586" selection-end="50586" vertical-scroll-proportion="0.553018" vertical-offset="48909" max-vertical-offset="111852">
-          <folding />
-        </state>
+        <state line="2736" column="28" selection-start="50586" selection-end="50586" vertical-scroll-proportion="0.553018" vertical-offset="48909" max-vertical-offset="111852" />
       </provider>
     </entry>
     <entry file="file://D:/xampp/htdocs/nt/view/js/speech.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="421" selection-end="421" vertical-scroll-proportion="0.35399672" vertical-offset="89" max-vertical-offset="1566">
-          <folding />
-        </state>
+        <state line="17" column="33" selection-start="421" selection-end="421" vertical-scroll-proportion="0.35399672" vertical-offset="89" max-vertical-offset="1566" />
       </provider>
     </entry>
     <entry file="file://D:/xampp/htdocs/nt/view/js/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="15" selection-start="276" selection-end="276" vertical-scroll-proportion="0.37380192" vertical-offset="0" max-vertical-offset="828">
-          <folding />
-        </state>
+        <state line="16" column="15" selection-start="276" selection-end="276" vertical-scroll-proportion="0.37380192" vertical-offset="0" max-vertical-offset="828" />
       </provider>
     </entry>
     <entry file="file://D:/xampp/htdocs/nt/view/js/acoes_speech.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="271" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1296">
-          <folding />
-        </state>
+        <state line="9" column="18" selection-start="271" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1296" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teste.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="66" selection-start="561" selection-end="561" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="972">
+        <state line="22" column="66" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="972">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/HVoice.js">
+    <entry file="file://$USER_HOME$/Desktop/coisa/ls/src/w3c/dom/produtos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="30" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="792">
-          <folding />
-        </state>
+        <state line="51" column="0" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.93989986" vertical-offset="355" max-vertical-offset="1134" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="14" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="2412">
+        <state line="92" column="10" selection-start="1670" selection-end="1670" vertical-scroll-proportion="0.0" vertical-offset="1324" max-vertical-offset="2664">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="564" selection-end="564" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="2412">
+        <state line="105" column="62" selection-start="5221" selection-end="5221" vertical-scroll-proportion="-17.555555" vertical-offset="1416" max-vertical-offset="2700">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/reloadJSON.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="116" selection-start="528" selection-end="528" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="1206">
+        <state line="67" column="84" selection-start="2923" selection-end="2923" vertical-scroll-proportion="-12.666667" vertical-offset="864" max-vertical-offset="1512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/terms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/HVoice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="30" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="792">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="38" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/json.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="112" selection-end="112" vertical-scroll-proportion="0.115015976" vertical-offset="0" max-vertical-offset="626">
+        <state line="103" column="56" selection-start="3591" selection-end="3591" vertical-scroll-proportion="0.67487687" vertical-offset="1443" max-vertical-offset="2052">
           <folding />
         </state>
       </provider>

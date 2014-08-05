@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>HVoice.JS</title>
-    <meta author='Joerverson Santos'/>
-    <meta description="handling voice"/>
+    <meta name='author' content='Joerverson Santos'/>
+    <meta name='description' content="handling voice"/>
+
+    <!-- styles of page -->
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/bootstrap-theme.css"/>
     <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="css/semantic.css" />
+
+    <!-- scripts of page -->
     <script src="js/jQuery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/json.js"></script>
+    <script src="js/terms.js"></script>
     <script src="js/script.js"></script>
+
 </head>
 <body>
 <p class="name">HVoice.JS</p>
@@ -43,7 +49,7 @@
                        <span class="input-group-addon glyphicon glyphicon-pushpin"></span>
                        <input type="text" id='linkNavigate' class="form-control" placeholder="Infome o link para ser enviando quando for falado o termo acima">
                    </div>
-                   <button class="btn salvarAlteracoes">Salvar Alteração</button>
+                   <button class="btn  btn-right salvarAlteracoes">Salvar Alteração</button>
                </div>
                <!-- conteudo opção 2-->
                <div class="op">
@@ -51,26 +57,26 @@
                        <span class="input-group-addon glyphicon glyphicon-bullhorn"></span>
                        <input type="text" class="form-control" id="termMovePage" placeholder="Infome o termo de Voz">
                    </div>
-                   <select id="selectMovePage" name="selectMovePage">
+                   <select id="selectMovePage" class='' name="selectMovePage">
                        <option value="cima">Rolar para Cima</option>
                        <option value="baixo">Rolar para Baixo</option>
                        <option value="topo">Ir para o Topo</option>
                        <option value="final">Ir para o Final</option>
                    </select>
-                   <button class="btn salvarAlteracoes">Salvar Alteração</button>
+                   <button class="btn  btn-right salvarAlteracoes">Salvar Alteração</button>
                </div>
                <!-- conteudo opção 3-->
                <div class="op">
+                   <div class="input-group">
+                       <span class="input-group-addon glyphicon glyphicon-bullhorn"></span>
+                       <input type="text" class="form-control" id="termAcoesPage" placeholder="Infome o termo de Voz">
+                   </div>
                    <select id="selectAcaoPage" name="selectAcaoPage">
                        <option value="voltar">Voltar Página</option>
                        <option value="proxima">Próxima Página</option>
                        <option value="recarregar">Recarregar Página</option>
                    </select>
-                   <div class="input-group">
-                       <span class="input-group-addon glyphicon glyphicon-bullhorn"></span>
-                       <input type="text" class="form-control" id="termAcoesPage" placeholder="Infome o termo de Voz">
-                   </div>
-                   <button class="btn salvarAlteracoes">Salvar Alteração</button>
+                   <button class="btn  btn-right salvarAlteracoes">Salvar Alteração</button>
                </div>
            </div>
         </div>
@@ -81,13 +87,23 @@
             <div class="op">
                 <div class="input-group">
                     <span class="input-group-addon glyphicon glyphicon-bullhorn"></span>
-                    <input type="text" class="form-control" placeholder="Infome o termo de Voz">
+                    <input type="text" class="form-control" id='termNew' placeholder="Infome o termo de Voz">
                 </div>
                 <div class="input-group">
-                    <span class="input-group-addon glyphicon glyphicon-pushpin">
-                        <textarea name="" id="" cols="70" rows="10"></textarea>
+                    <span class="input-group-addon glyphicon glyphicon-bullhorn"></span>
+                    <input type="text" class="form-control" id='descTerm' placeholder="Informe a descriçao Dessa nova Função">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <div class="ui form">
+                            <div class="field">
+                                <label>Edit Script</label>
+                                <textarea class="" name="" id="func" cols="70" rows="10"></textarea>
+                            </div>
+                        </div>
                     </span>
                 </div>
+                <button class="btn btn-right salvarNewRegistro">Registrar Função e Termo</button>
             </div>
         </div>
 
