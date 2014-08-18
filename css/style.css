@@ -64,7 +64,7 @@ body{
 }
 .aba:nth-child(3){
     left:200%;
-    text-align: justify;
+    text-align: left;
 }
 .aba:nth-child(4){
     left:300%;
@@ -140,4 +140,62 @@ input{
 }
 .op:nth-child(4){
     left: 300%;
+}
+/* ---------- termos registrados ----------*/
+.termosRegistrados{
+    height: 90%;
+    overflow-y: scroll;
+}
+.infoterms{
+    width: 100%;
+    height:70px;
+    position: relative;
+}
+.infoterms:hover, .del-alt-alterar:hover, .del-alt-delete:hover{
+    color: white;
+    font-size: 18px;
+    background-color: #632b80;
+    display: block;
+}
+.termosRegistrados span{
+    width: 60%;
+    left:0;
+    position:absolute;
+    text-align: left;
+    height: 100%;
+    padding: 20px 0 0 10px;
+}
+.del-alt-alterar, .del-alt-delete{
+    position: absolute;
+    top:10%;
+    right: 1%;
+    height: 35%;
+    width: 200px;
+    display: none;
+}
+.del-alt-alterar{
+    position: absolute;
+    top:52%;
+    right: 1%;
+    height: 35%;
+}
+/*      --------------- butuns ---------------------*/
+
+.config-aba .btn-config{
+    width: 100%;
+    position: absolute !important;
+    bottom: 0 !important;
+    margin: 60px !important;
+
+}
+.config-aba .button{
+    border:none !important;
+    box-shadow: none !important;
+    background-color: limegreen !important;
+    height: 80px;
+    font-size: 20px !important;
+    margin: 0 0 0 60px !important;
+    width: 500px;
+    display: inline-block!important;
+    float: left !important;
 }

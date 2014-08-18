@@ -1,6 +1,7 @@
 $(function(){
 
     var tamanhoM = parseInt($('.aba').css('width')); // alternar entre as abas
+
     $('.nav li').on("click",function(){
         $('.nav li').removeClass('active');
         $(this).addClass('active');
@@ -52,7 +53,7 @@ $(function(){
 
         $.ajax({
             type:'post',
-            url: '/SPH%20-%20SiteSpeech/php/reloadJSON.php',
+            url: window.location.origin + '/HVoiceJS/php/reloadJSON.php',
             data: 'termNav='+termNav+'&linkNav='+linkNav+'&termMovePage='+termMove+'&selectMovePage='+takePage+'&selectAcaoPage='+takeAcoes+'&termAcoesPage='+termAcoes,
             datatype: 'html'
 
@@ -66,7 +67,19 @@ $(function(){
     });
 
 
+    $(".apagar-tudo").click(function(){
+        $.ajax({
+            type:'post',
+            url: window.location.origin + '/HVoiceJS/php/reloadJSON.php',
+            data: 'apagarTudo=apagar',
+            datatype: 'html'
 
+        }).done(function(e){
+            alert('Ok, Tudo apagado!');
+        }).fail(function(){
+            alert('Putz, houve um erro no registro');
+        });
+    });
 
     $('.salvarNewRegistro').on("click",function(){ // salvar novo registro (modo avançado)
         var termNew = $('#termNew').val();
@@ -84,7 +97,7 @@ $(function(){
         console.log(termNew+' - '+NFunc+' - '+desc);
         $.ajax({
             type:'post',
-            url: '/SPH%20-%20SiteSpeech/php/reloadJSON.php',
+            url: window.location.origin + '/HVoiceJS/php/reloadJSON.php',
             data: 'termNew='+termNew+'&func='+NFunc+'&termDesc='+desc,
             datatype: 'html'
 
@@ -97,12 +110,51 @@ $(function(){
         });
     });
 
+    listarTerms(); // listar termos quando for carregada a pagina
+
+    // ---------- função que manda deletar os termos
+
+    $(".del-alt-delete").on("click",function(){ // enviar para o php quando for clicado em deletar
+        $termAtual = this.parentElement.childNodes[0].innerHTML.split(" ");
+        console.log($termAtual[1]);
+
+        terms.forEach(function(e){
+            if($termAtual[1] == "'"+e.term+"'"){
+                $.ajax({
+                    url: window.location.origin + '/HVoiceJS/php/reloadJSON.php',
+                    type: "post",
+                    data: "delete="+$termAtual[1],
+                typedata: "html"
+                }).done(function(e){
+                    $('input').val('');
+                    alert('Ok, Deletado com sucesso!');
+                    listarTerms();
+                    //console.log(e);
+                }).fail(function(){
+                    listarTerms();
+                    alert('Putz, houve um erro no registro');
+                });
+            }
+        });
+    });
+});
 
 
+
+
+function listarTerms(){
     // listando todos os termos registrados
     var f = '';
-    terms.forEach(function(t){f += 'Termo: "'+t.term+'", Descrição: '+ t.desc+'<br>'});
-    $('.termosRegistrados').html(f);
-    // -------------------------------
+    terms.forEach(function(t){
+        f += '<div class="infoterms"><span>Termo: \'' + t.term;
+        f += '\' - Descrição: '+ t.desc + '</span>';
 
-});
+        if(t.term != 'oi')
+            f += '<div class="ui hover button del-alt-delete">Apagar</div><div class="ui hover button del-alt-alterar">Alterar</div>';
+
+        f += '</div>';
+    });
+
+    $('.termosRegistrados').html(f);
+   // -------------------------------
+}

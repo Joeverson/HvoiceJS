@@ -6,22 +6,19 @@
     <meta name='author' content='Joerverson Santos'/>
     <meta name='description' content="handling voice"/>
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
     <!-- styles of page -->
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/bootstrap-theme.css"/>
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
     <link rel="stylesheet" href="css/semantic.css" />
-
-    <!-- scripts of page -->
-    <script src="js/jQuery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/terms.js"></script>
-    <script src="js/script.js"></script>
 
 </head>
 <body>
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true"><div class="modal-dialog modal-sm"><div class="modal-content"></div></div></div>
 <p class="name">HVoice.JS</p>
 <section id="faixa" class="col-md-12">
     <ul class="nav nav-tabs " role="tablist">
@@ -119,7 +116,7 @@
 
         <div class="aba">
             <div class="op">
-                <p>
+                <p class="col-span-6">
                     Para um bom funcionamento do sistema, scolha palavras faceis <br/>
                     de serem pronunciadas pelo usuário. Sempre se lembre que o termo que <br/>
                     foi adicionado será mais ou menos oque o usuário terá que falar para que <br/>
@@ -134,12 +131,29 @@
 
         <!-- quinta aba-->
 
-        <div class="aba">
+        <div class="aba config-aba">
             <div class="op">
-                lcmçzxkcjmçzkxcmçzkcm zçkczçxkcnzxkczlxkcn zxlcjnzxljcnzlxcn
+                <div class="btn-config">
+                    <div class="ui labeled icon button col-md-6 apagar-tudo">
+                        <i class="glyphicon glyphicon-remove-circle icon"></i>
+                        Apagar todos os termos
+                    </div>
+
+                    <div class="ui labeled icon button col-md-6">
+                        <i class="glyphicon glyphicon-remove-circle icon"></i>
+                        Criar login <br> (para melhor segurança)
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- scripts of page -->
+<script src="js/jQuery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="terms.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

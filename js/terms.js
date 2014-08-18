@@ -5,8 +5,8 @@ var terms = [
         desc: 'Boas Vindas do HVoice.JS'
     }
 , { 
-   term:'kkkkkkkkkkk', 
-   take: function(){ $('body').scrollTop( 10000 ); },
-   desc: 'Ir para o Final da Página'
+   term:'asd', 
+   take:'asdasdasd',
+   desc: 'asd'
   }
 ]
