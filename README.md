@@ -1,15 +1,15 @@
 #HvoiceJS
-========
+
 O que você acha do seu site obedecer seus comandos de voz??
 
 
 
 #O que é? e para que serve o HVoiceJS?
-=======
+
 O Hvoice é um sistema para dar suporte de voz ao seu site/sistema. Com ele é possivel manipular todo o site/sistema por simples comandos de voz, essa API ainda permite que o usuário administrador configure os comandos, ou seja, o administrados do site pode criar novas funções javascript para qualquer coisa no site e executa-las por comandos de voz. O HvoiceJS tem varias aplicações e pode ser usado para qualquer tipo de site/sistema. A API é simples e facil de ser instalado, basta apenas colocar 2 links e uma classe e pronto! 
 
 #Instatação
-=======
+
 Veja como é facil e simples a instalação do HVoiceJS em alguns passos e aplicação esta pronta para ser usada!
 
 - Faça [download](http://314.bl.ee/hvoice/hvoicejs.beta.v0.01.zip).
@@ -20,7 +20,7 @@ Veja como é facil e simples a instalação do HVoiceJS em alguns passos e aplic
 - Agora é só configurar e pronto!
 - 
 #Regras de Bom Funcionamento
-========
+
 para que o sistema funcione de forma melhor e fique atento a algumas considerações na hora de definir quais termos vão ser utilizados para determinadas ações do site.
 
 - Não coloque termos complicados de serem prenunciados (pense na dicção dos usuários).
