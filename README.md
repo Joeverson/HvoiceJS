@@ -1,4 +1,4 @@
-#HvoiceJS
+#Hvoice.JS
 
 O que você acha do seu site obedecer seus comandos de voz??
 
